@@ -5,7 +5,7 @@ it implements async GET and POST request simply by calling its network handlers
 
 
 
-#### On Dart Packages : https://pub.dartlang.org/packages/networkjson
+#### On Dart Packages : https://pub.dartlang.org/packages/jsonrequest
 
 
 
@@ -16,7 +16,7 @@ Add this to your package's pubspec.yaml file:
 
 ~~~~ yaml
 dependencies:
-  networkjson: ^0.1.1
+  jsonrequest: ^0.1.1
 ~~~~
 
 #### 2. Install it
@@ -38,7 +38,7 @@ Alternatively, your editor might support pub get or flutter packages get. Check 
 Now in your Dart code, you can use:
 
 ~~~~dart
-import 'package:networkjson/networkjson.dart';
+import 'package:jsonrequest/jsonrequest.dart';
 ~~~~
 
 
