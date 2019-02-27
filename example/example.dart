@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:networkjson/networkjson.dart';
+import '../lib/jsonrequest.dart';
 
 void main() {
   Future<JsonObject> jsonRequest = JsonObject.get("https://jsonplaceholder.typicode.com/todos/1");
