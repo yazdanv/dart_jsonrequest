@@ -1,0 +1,11 @@
+name: jsonrequest
+description: Dart (Flutter) Network JSON fetch and manipulation library, the package consists of JsonObject and JsonArray and handlers to get JsonArray from objects and JsonObject from arrays.
+version: 0.1.1
+author: "Yazdan <ymazdy@gmail.com>"
+homepage: http://github.com/yazdanv/dart_jsonrequest
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  http: ^0.11.3+17
